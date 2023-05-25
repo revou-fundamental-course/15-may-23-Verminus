@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Luas dan Keliling Persegi</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!--container utama-->
+<div class="container">
+<div class="judul">
+  <h1>Luas dan Keliling Persegi</h1>
+</div>
+ 
+
+  <!-- Untuk Form input luas -->
+  <h2>Hitung Luas</h2>
+  <form id="luasForm">
+    <label for="sisi-luas">Sisi:</label>
+    <input type="number" id="sisi-luas" name="sisi-luas" required>
+    <button id="hitung-luas">Hitung</button>
+  </form>
+  <p id="output_luas"></p>
+
+  <!-- Untuk Form input keliling -->
+  <h2>Hitung Keliling</h2>
+  <form id="kelilingForm">
+    <label for="sisi-keliling">Sisi:</label>
+    <input type="number" id="sisi-keliling" name="sisi-keliling" required>
+    <button id="hitung-keliling">Hitung</button>
+  </form>
+  <p id="output_keliling"></p>
+  <br><br><br>
+  <button id="reset-button">Reset</button>
+</div>
+
+<!--footer-->
+<footer>
+    <p>&copy; 2023 Casey Tjiptadjaja. Software Engineering.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
